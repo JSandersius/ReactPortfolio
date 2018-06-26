@@ -1,0 +1,8 @@
+Building this out with react and no other UI libraries/frameworks
+responsive design, animations, flexbox and other fancy CSS
+.Flexbox Layout
+..Theme and React's context API
+...Responsive Design
+....Parallax Background
+.....Animations
+......Browser Specific Code
