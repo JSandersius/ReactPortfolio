@@ -1,8 +1,82 @@
 Building this out with react and no other UI libraries/frameworks
+may leave redix out of this..
 responsive design, animations, flexbox and other fancy CSS
+
 .Flexbox Layout
 ..Theme and React's context API
 ...Responsive Design
 ....Parallax Background
 .....Animations
 ......Browser Specific Code
+
+Site will be laid out using Flexbox
+
+CSS Grid vs Flexbox..?
+Support for CSS Grid is not the best, Flexbox is very supported though 
+
+Flexbox is all about containers and children 
+reference -> http://yoksel.github.io/flex-cheatsheet/
+
+flex property can be difficult 
+
+_____
+With Responsive Design (Responive Web Apps)
+Sass can be a powerful too if one knows how to use it right 
+Exporting Sass mixins can help design and resfactor responsive layout without breaking a sweat
+
+Dinesh has made a re-usable sass breakpoint mixin library 
+https://github.com/flexdinesh/flexdinesh.github.io/blob/dev/src/styles/_breakpoints.scss
+--> thank you Dinesh 
+
+writing media queries is much easier with these Sass breakpoint mixins 
+
+_____
+Parallax Star Background by Dinesh 
+https://codepen.io/flexdinesh/full/GxNazP/    noice snowfall background 
+One can make their own on codepen   
+
+_______
+Animations 
+-> scroll to next page arrow bounces
+Social Icons (gihub,twitte, linkedin) bounce when hovered ove
+
+bounce is a good animation, Parallax snowfall animation
+
+_______
+Browser specific code 
+___
+
+Safari does not suport smooth scroll and firefox glitches rendering snowfall 
+For these browesrer specific behavior is needed
+a react component can do this, thar renders code for specific browsers
+
+code for this component can be found here --> 
+https://github.com/flexdinesh/flexdinesh.github.io/tree/dev/src/components/Browser
+
+Link to site is here https://flexdinesh.github.io/
+sourcecode is here  --> https://github.com/flexdinesh/flexdinesh.github.io/tree/dev
+
+updated to React 16.3? 
+
+
+
+We can use css variables to theme things.
+
+
+codepen.io/aravindballa/pen/XEpZbr
+It is not supported in IE11 though!
+
+_____
+https://github.com/tonyfsullivan/tonyfsullivan.github.io
+
+ ____
+ "support for CSS Grid "
+https://caniuse.com/#feat=css-grid
+
+_________
+I used webpack alias to configure alias name to directories. It's easy that way.
+
+You can refer this line for more info.
+https://github.com/flexdinesh/flexdinesh.github.io/blob/243d228a3e01967f7d905d6ec1c4dfce56980a29/config/webpack.config.dev.js#L88
+
+_________
