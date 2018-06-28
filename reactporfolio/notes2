@@ -12,3 +12,15 @@ ok more stuff,
 
 there will be four pages
 one interactive page that allows the user to click
+
+
+Ok going to build this out using 
+P5.js -a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
+
+CSSAnimations - make it possible to animate transitions from one CSS style configuration to another. Animations consist of 
+                two components, a style describing the CSS animation and a set of keyframes that indicate the start and end 
+                states of the animation's style, as well as possible intermediate waypoints 
+
+Flexbox- The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a
+         method that could offer space distribution between items in an interface and powerful alignment capabilities
+All within a React enviroment
